@@ -1,0 +1,25 @@
+.mainContainer{
+    height:100vh;
+    width:100vw;
+    display:block;
+    background-color : var(--secondary-color);
+    overflow:hidden;
+}
+
+.midContainer{
+    display:flex;
+    width:100vw;
+    height: 100vh;
+    position:absolute;
+    top:0;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.midWrapper{
+    display:block;
+    width:60vw;
+    height: 60vh;
+    background-color: white;
+}

@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect,useRef } from 'react';
+import classes from './App.module.css';
+import LeftSidebar from './components/LeftSidebar/LeftSidebar'
+import DiagonalBG from './components/DiagonalBG/DiagonalBG';
+import { BrowserRouter as Router,Route } from 'react-router-dom';
+import Landing from './pages/Landing/Landing'
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import CircleIndicator from './components/CircleIndicator/CircleIndicator';
+import Timeline from './pages/Timeline/Timeline';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div className={classes.App}>
+      <CircleIndicator/>
+       {/*<DiagonalBG  />*/}
+      <LeftSidebar/>
+      <Landing/>
+      <Timeline/>
     </div>
   );
 }

@@ -1,0 +1,26 @@
+.navContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index:2;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background: var(--main-color);
+    z-index:2;
+  }
+
+  .navInnerContainer{
+      height:100%;
+      display:grid;
+      grid-template-rows: 20% 60% 20%;
+      align-items: center;
+      justify-items: center;
+  }

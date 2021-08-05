@@ -1,0 +1,11 @@
+.App{
+    background-color : var(--main-color);
+    height:300vh;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    overflow:hidden;
+}
+
+
+
