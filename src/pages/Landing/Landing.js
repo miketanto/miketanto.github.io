@@ -7,7 +7,11 @@ function Landing() {
         <div className = {classes.mainContainer} id = 'landing'>
             <DiagonalBG/>
             <div className = {classes.midContainer}> 
-                <div className ={classes.midWrapper}></div>
+                <div className ={classes.midWrapper}>
+                    <div>
+                    Portfolio Still On The Works
+                    </div>
+                </div>
             </div>
       </div>
     )

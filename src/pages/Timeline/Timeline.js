@@ -4,11 +4,12 @@ import BgAnimation from '../../animations/BackgroundAnimation/BackgroundAnimatio
 function Timeline() {
     return (
         <div className = {classes.mainContainer} id = 'timeline'>
-            <div
-            style = {{height:'60vh', width: '50vw'}}>
-            <BgAnimation/>
-            </div>
-      </div>
+            <div className = {classes.mainTextContainer}>
+              <span className = {classes.bigText}>Welcome to Mike</span><br/>
+              <span className = {classes.bigText}>Portfolio</span><br/>
+              </div>
+        </div>
+
     )
 }
 
